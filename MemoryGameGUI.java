@@ -82,7 +82,7 @@ public class MemoryGameGUI extends JFrame {
     * Initial condition: sequence should be not empty/null and already radmondized 
     * 
     * @param sequence an array of strings to show as individual button text
-    * @param delay how long the text will show, measured in tenths of a second
+    * @param delay how long the text will show, measured seconds
     * @return a string containing the users guess, or null if the user cancels
     */
     public String playSequence(String[] sequence, double delay){
